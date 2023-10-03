@@ -11,8 +11,8 @@ namespace Tyuiu.ZhdanovaAA.Sprint0.TaskReview.V0.Test
         [TestMethod]
         public void CheckCalc()
         {
-            Assert.AreEqual(30, DataService.Calc(1, 2, 3));
+            Assert.AreEqual(45, DataService.Calc(2, 3, 4));
         }
     }
 }
-  
+   

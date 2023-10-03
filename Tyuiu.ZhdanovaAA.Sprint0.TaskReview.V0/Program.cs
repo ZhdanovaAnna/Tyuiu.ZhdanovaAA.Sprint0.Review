@@ -16,7 +16,7 @@ namespace Tyuiu.ZhdanovaAA.Sprint0.TaskReview.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #0                                                               *");
             Console.WriteLine("* Тема: Тестирование по спринту                                           *");
-            Console.WriteLine("* Задание: SprintReview #0                                                *");
+            Console.WriteLine("* Задание: SprintReview                                                   *");
             Console.WriteLine("* Вариант #0                                                              *");
             Console.WriteLine("* Выполнила: Жданова Анна Александровна                                   *");
             Console.WriteLine("***************************************************************************");
@@ -29,12 +29,11 @@ namespace Tyuiu.ZhdanovaAA.Sprint0.TaskReview.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine();
 
-            Console.WriteLine("Введите первое число X: ");
-            int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите второе число Y: ");
-            int y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите третье число Z: ");
-            int z = Convert.ToInt32(Console.ReadLine());
+
+            int x = 20, y = 2, z = 15;
+            Console.WriteLine($"X = {x}");
+            Console.WriteLine($"Y = {y}");
+            Console.WriteLine($"Z = {z}");
 
             Console.WriteLine();
             Console.WriteLine("***************************************************************************");
