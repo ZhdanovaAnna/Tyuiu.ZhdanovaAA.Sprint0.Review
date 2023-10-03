@@ -14,5 +14,5 @@ namespace Tyuiu.ZhdanovaAA.Sprint0.TaskReview.V0.Test
             Assert.AreEqual(45, DataService.Calc(2, 3, 4));
         }
     }
-}
+} 
    
